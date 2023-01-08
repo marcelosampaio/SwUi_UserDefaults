@@ -11,7 +11,7 @@ import SwiftUI
 struct SwUi_UserDefaultsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ViewModel())
         }
     }
 }
